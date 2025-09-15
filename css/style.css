@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+  
+}
+.gogl{
+    background-color: aliceblue !important
+}
+.boda {
+    border: 3px solid  white !important;
+}
+.arrived{
+    font-size: medium;
+}
+.boda2{
+    background-color: white !important;
+}
