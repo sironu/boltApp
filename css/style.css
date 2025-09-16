@@ -21,6 +21,8 @@ body{
     background-color: white !important;
 }
 .naira{
-    text-decoration-style:double !important;
+    text-decoration-style: double;
+    font-size: medium;
+    
     
 }
