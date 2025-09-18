@@ -15,7 +15,16 @@ body{
     border: 3px solid  white !important;
 }
 .arrived{
-    font-size: medium;
+    font-size: 1.15rem !important;
+    line-height: 1.75rem !important;
+}
+.pad-left{
+    padding-left: 20px ;
+}
+.text-size{
+    font-size: 1.15rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 500;
 }
 .boda2{
     background-color: white !important;
@@ -25,4 +34,9 @@ body{
     font-size: medium;
     
     
+}
+.one-min{
+    font-size: 1.7rem !important;
+    line-height: 2.25rem !important;
+    font-weight: 600;
 }
