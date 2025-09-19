@@ -18,6 +18,11 @@ const riders = [
   "Okeke",
   "Uche",
   "Nwosu",
+  "Josephine",
+  "Joel",
+  "SSIB",
+  "Rex",
+  "Chioma"
 ];
 let j = riders[Math.floor(Math.random() * riders.length)];
 
@@ -39,3 +44,18 @@ const prices = [
 
 let priceContainers = document.querySelector(".price-container");
 priceContainers.innerHTML = prices[Math.floor(Math.random() * prices.length)];
+
+
+
+function getName() {
+ let disapear = document.querySelector(".disapear");
+
+if (scrollY > 150 ) {
+  
+  disapear.classList.add("hidden");
+}else{
+disapear.classList.remove("hidden");
+}
+}
+
+window.addEventListener("scroll", getName);
